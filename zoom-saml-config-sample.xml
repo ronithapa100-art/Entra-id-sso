@@ -1,0 +1,13 @@
+<SSOConfig>
+  <Issuer>https://sts.windows.net/YOUR_TENANT_ID/</Issuer>
+  <LoginURL>https://login.microsoftonline.com/YOUR_TENANT_ID/saml2</LoginURL>
+  <LogoutURL>https://login.microsoftonline.com/YOUR_TENANT_ID/saml2</LogoutURL>
+  <EntityID>example.zoom.us</EntityID>
+  <Certificate>
+    -----BEGIN CERTIFICATE-----
+    MIIC...<REDACTED_CERTIFICATE>...==
+    -----END CERTIFICATE-----
+  </Certificate>
+  <Binding>HTTP-Redirect</Binding>
+  <SignatureHashAlgorithm>SHA-256</SignatureHashAlgorithm>
+</SSOConfig>

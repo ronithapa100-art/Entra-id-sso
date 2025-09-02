@@ -1,0 +1,14 @@
+<EntityDescriptor entityID="https://example.my.salesforce.com">
+  <IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <KeyDescriptor use="signing">
+      <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <X509Data>
+          <X509Certificate>MIIC...<REDACTED_CERTIFICATE>...==</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </KeyDescriptor>
+    <SingleSignOnService
+      Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
+      Location="https://login.microsoftonline.com/YOUR_TENANT_ID/saml2"/>
+  </IDPSSODescriptor>
+</EntityDescriptor>

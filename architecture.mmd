@@ -1,0 +1,14 @@
+%% Mermaid sequence diagram for Entra ID (IdP) SSO with Zoom & Salesforce (SPs)
+sequenceDiagram
+  participant U as User
+  participant Z as Zoom (SP)
+  participant SF as Salesforce (SP)
+  participant AAD as Entra ID (IdP)
+
+  U->>Z: Access Zoom (SP)
+  Z-->>U: Redirect to IdP (SAML AuthnRequest)
+  U->>AAD: Authenticate (MFA/Conditional Access)
+  AAD-->>U: SAML Response (signed, SHA-256)
+  U->>Z: Post SAML Response (ACS); session established
+
+  Note over SF,AAD: Salesforce follows the same SAML pattern (ACS + Entity ID)

@@ -1,0 +1,1 @@
+This repository is for educational/demo purposes only. It contains **no** production configuration, customer data, or company identifiers. Replace all placeholders with your own **test** values in a lab environment.

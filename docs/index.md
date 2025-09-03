@@ -36,9 +36,6 @@ sequenceDiagram
 ```
 
 ## Guides
-- [Zoom Integration](../guides/zoom-integration.md)
-- [Salesforce Integration](../guides/salesforce-integration.md)
-- [Troubleshooting](../guides/troubleshooting.md)
-
-## Disclaimer
-This case study is for educational/demo purposes only. Use a **test tenant** and never commit real secrets or company identifiers.
+- [Zoom Integration](https://github.com/ronithapa100-art/Entra-id-sso/blob/main/guides/zoom-integration.md)
+- [Salesforce Integration](https://github.com/ronithapa100-art/Entra-id-sso/blob/main/guides/salesforce-integration.md)
+- [Troubleshooting](https://github.com/ronithapa100-art/Entra-id-sso/blob/main/guides/troubleshooting.md)

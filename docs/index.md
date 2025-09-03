@@ -3,6 +3,7 @@ title: Entra ID SSO (Zoom + Salesforce) — Demo Case Study
 description: Portfolio-ready case study showing Entra ID SSO with Zoom & Salesforce (sanitized).
 ---
 
+
 # Entra ID SSO (Zoom + Salesforce) — Demo Case Study
 
 This site summarizes how to integrate **Microsoft Entra ID** with **Zoom** and **Salesforce** for **SAML 2.0** Single Sign-On. All values are sanitized placeholders.
@@ -31,9 +32,9 @@ sequenceDiagram
   Note over SF,AAD: Salesforce follows the same SAML pattern (ACS + Entity ID)
 </div>
 
-<!-- Pin a specific Mermaid version -->
 <script src="https://unpkg.com/mermaid@10.9.1/dist/mermaid.min.js"></script>
 <script>mermaid.initialize({ startOnLoad: true });</script>
+
 
 ## Guides
 - **Zoom Integration** — opens on GitHub:  

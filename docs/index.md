@@ -5,7 +5,7 @@ description: Portfolio-ready case study showing Entra ID SSO with Zoom & Salesfo
 
 # Entra ID SSO (Zoom + Salesforce) — Demo Case Study
 
-This site summarizes the demo repository that showcases how to integrate **Microsoft Entra ID** with **Zoom** and **Salesforce** for **SAML 2.0** Single Sign-On. All values are sanitized placeholders.
+This site summarizes how to integrate **Microsoft Entra ID** with **Zoom** and **Salesforce** for **SAML 2.0** Single Sign-On. All values are sanitized placeholders.
 
 ## Highlights
 - Org-wide SSO with Entra ID as IdP
@@ -30,12 +30,18 @@ sequenceDiagram
 
   Note over SF,AAD: Salesforce follows the same SAML pattern (ACS + Entity ID)
 </div>
-<script src="https://unpkg.com/mermaid@10/dist/mermaid.min.js"></script>
+
+<!-- Pin a specific Mermaid version -->
+<script src="https://unpkg.com/mermaid@10.9.1/dist/mermaid.min.js"></script>
 <script>mermaid.initialize({ startOnLoad: true });</script>
 
-```
-
 ## Guides
-- [Zoom Integration](https://github.com/ronithapa100-art/Entra-id-sso/blob/main/guides/zoom-integration.md)
-- [Salesforce Integration](https://github.com/ronithapa100-art/Entra-id-sso/blob/main/guides/salesforce-integration.md)
-- [Troubleshooting](https://github.com/ronithapa100-art/Entra-id-sso/blob/main/guides/troubleshooting.md)
+- **Zoom Integration** — opens on GitHub:  
+  https://github.com/ronithapa100-art/Entra-id-sso/blob/main/guides/zoom-integration.md
+- **Salesforce Integration** — opens on GitHub:  
+  https://github.com/ronithapa100-art/Entra-id-sso/blob/main/guides/salesforce-integration.md
+- **Troubleshooting** — opens on GitHub:  
+  https://github.com/ronithapa100-art/Entra-id-sso/blob/main/guides/troubleshooting.md
+
+## Disclaimer
+This case study is for educational/demo purposes only. Use a **test tenant** and never commit real secrets or company identifiers.

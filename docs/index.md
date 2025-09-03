@@ -36,6 +36,7 @@ sequenceDiagram
 <script>mermaid.initialize({ startOnLoad: true });</script>
 
 
+
 ## Guides
 - **Zoom Integration** — opens on GitHub:  
   https://github.com/ronithapa100-art/Entra-id-sso/blob/main/guides/zoom-integration.md

@@ -11,7 +11,7 @@ All values are **sanitized placeholders** — no company-specific or production 
 - Implemented **organization-wide Single Sign-On (SSO)** across Zoom and Salesforce with **Entra ID**.
 - Enabled Just-in-Time (JIT) provisioning** in Salesforce to streamline onboarding.
 - Applied Conditional Access + MFA** at the IdP for defense-in-depth.
-- Outcome: ~35% fewer login tickets over 60 days; onboarding time reduced from 2 days → 30 minutes (sanitized).
+- Outcome (200 users):** ~35% fewer login tickets over 60 days; onboarding cut from **2 days → 30 minutes (~97% faster)**; **3,100 hours** saved total.
 
 ---
 ## Results (200 users, sanitized)

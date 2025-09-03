@@ -15,7 +15,7 @@ This site summarizes the demo repository that showcases how to integrate **Micro
 - Troubleshooting playbook and sample configs
 
 ## Architecture
-```mermaid
+<div class="mermaid">
 sequenceDiagram
   participant U as User
   participant Z as Zoom (SP)
@@ -29,6 +29,10 @@ sequenceDiagram
   U->>Z: Post SAML Response (ACS); session established
 
   Note over SF,AAD: Salesforce follows the same SAML pattern (ACS + Entity ID)
+</div>
+<script src="https://unpkg.com/mermaid@10/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({ startOnLoad: true });</script>
+
 ```
 
 ## Guides

@@ -15,25 +15,10 @@ This site summarizes how to integrate **Microsoft Entra ID** with **Zoom** and *
 - Conditional Access + MFA at the IdP
 - Troubleshooting playbook and sample configs
 
+
 ## Architecture
-<div class="mermaid">
-sequenceDiagram
-  participant U as User
-  participant Z as Zoom (SP)
-  participant SF as Salesforce (SP)
-  participant AAD as Entra ID (IdP)
+![SSO flow: Entra ID (IdP) with Zoom & Salesforce (SAML 2.0)](architecture.pdf)
 
-  U->>Z: Access Zoom (SP)
-  Z-->>U: Redirect to IdP (SAML AuthnRequest)
-  U->>AAD: Authenticate (MFA/Conditional Access)
-  AAD-->>U: SAML Response (signed, SHA-256)
-  U->>Z: Post SAML Response (ACS); session established
-
-  Note over SF,AAD: Salesforce follows the same SAML pattern (ACS + Entity ID)
-</div>
-
-<script src="https://unpkg.com/mermaid@10.9.1/dist/mermaid.min.js"></script>
-<script>mermaid.initialize({ startOnLoad: true });</script>
 
 
 

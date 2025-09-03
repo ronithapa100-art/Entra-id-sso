@@ -9,7 +9,7 @@ All values are **sanitized placeholders** — no company-specific or production 
 - Implemented **organization-wide Single Sign-On (SSO)** across Zoom and Salesforce with **Entra ID**.
 - Enabled **Just-in-Time (JIT) provisioning** in Salesforce to streamline onboarding.
 - Applied **Conditional Access + MFA** at the IdP for defense-in-depth.
-- Outcome (example): **~40% fewer** login-related helpdesk tickets; faster onboarding.
+- Outcome: **~40% fewer** login-related helpdesk tickets; faster onboarding.
 
 ---
 

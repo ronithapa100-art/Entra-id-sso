@@ -4,11 +4,10 @@ Use these bullets verbatim (or tweak numbers) on your resume and LinkedIn.
 Replace bracketed values with your own metrics.
 
 ## Resume Bullets
-- Led **organization-wide Single Sign-On (SSO)** rollout by integrating **Microsoft Entra ID** with **Zoom** and **Salesforce**, securing access for **[N] users** across **[X] departments**; cut login-related tickets by **~[30–50]%**.
-- Implemented **Just-in-Time (JIT) provisioning** in Salesforce with attribute/role mapping, reducing new-user onboarding time from **[T1] → [T2]** and eliminating manual account creation.
-- Hardened authentication with **Conditional Access + MFA**, standardized **SAML 2.0 (RSA-SHA256)**, and enforced **group-based access**; improved auditability and reduced risk of credential reuse.
-- Built an operational runbook for **certificate rotation** and SAML metadata refresh; prevented outages by rotating certs **[X] weeks** before expiry.
-- Partnered with Security and IT Ops to pilot, monitor, and phase rollout; achieved **[>99%]** successful sign-in rate post cutover.
+- Led **organization-wide SSO** using **Microsoft Entra ID** for **Zoom** and **Salesforce**, securing access for **200 users**; reduced login-related tickets by **~35%** over 60 days.
+- Cut onboarding time from **2 days → 30 minutes (~97% faster)** by standardizing SAML 2.0 mappings and enabling Salesforce **JIT provisioning**; saved **3,100 total hours** (~**388 workdays**).
+- Enforced **Conditional Access + MFA** across the estate; achieved **100% coverage (200/200 users)** with group-based access and documented break-glass exclusions.
+- Implemented a **certificate rotation** runbook (rotate ~30 days before expiry) and SP metadata update steps to avoid outages.
 
 ## Interview Talking Points (STAR)
 - **Situation:** Users had multiple passwords and inconsistent security across SaaS apps.
